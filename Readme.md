@@ -15,7 +15,7 @@ noDependencies: true
 ---
 # IMPORTANT
 
-Last year we announced a new Microsoft Intune GitHub repository [here](https://aka.ms/Intune/Scripts-blog) based on the Microsoft Graph SDK-based PowerShell module. This legacy Microsoft Intune PowerShell sample scripts GitHub repository is now read-only. Additionally, starting on April 1, 2024, due to updated authentication methods in the Graph SDK-based PowerShell module, the global Microsoft Intune PowerShell application (client) ID based authentication method is being removed.
+Last year we announced a new Microsoft Intune GitHub repository [here](https://aka.ms/Intune/Scripts-blog) based on the Microsoft Graph SDK-based PowerShell module. This legacy Microsoft Intune PowerShell sample scripts GitHub repository is now read-only and is considered deprecated. No support is provided for scripts in this legacy repo. Additionally, starting on April 1, 2024, due to updated authentication methods in the Graph SDK-based PowerShell module, the global Microsoft Intune PowerShell application (client) ID based authentication method is being removed.
 
 ### How this will affect your organization
 
@@ -65,6 +65,9 @@ The following samples are included in this repository:
 - UserPolicyReport
 
 The scripts are licensed "as-is." under the MIT License.
+
+
+The following information on using these PowerShell scripts remains here for historical reference only. This information may be outdated or no longer supported or recommended (e.g. Azure AD Graph). 
 
 #### Disclaimer
 Some script samples retrieve information from your Intune tenant, and others create, delete or update data in your Intune tenant.  Understand the impact of each sample script prior to running it; samples should be run using a non-production or "test" tenant account. 
@@ -149,3 +152,4 @@ Your feedback is important to us. Connect with us on Stack Overflow. Tag your qu
 Copyright (c) 2017 Microsoft. All rights reserved.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
